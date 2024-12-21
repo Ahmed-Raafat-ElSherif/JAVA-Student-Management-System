@@ -2,8 +2,6 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.io.*;
-//import java.awt.event.ActionEvent;
-//import java.awt.event.ActionListener;
 
 public class TableGUI implements Serializable {
     public static void start() {
@@ -18,7 +16,6 @@ public class TableGUI implements Serializable {
         // Layout setup
         JPanel panel = new JPanel(new BorderLayout());
         frame.add(panel);
-        
 
         // Input fields
         JPanel inputPanel = new JPanel(new GridLayout(3, 6, 5, 5));
@@ -69,37 +66,6 @@ public class TableGUI implements Serializable {
         buttonPanel.add(btnSearch);
         panel.add(buttonPanel, BorderLayout.SOUTH);
 
-/*        //Database Management
-        File file = new File("TableInfo.ser");
-        if (file.exists()){
-            //JOptionPane.showMessageDialog(frame, "Database already exists. Loading data...");
-            try {
-                //FileReader reader = new FileReader(file);
-                TableGUI gui = null;
-                FileInputStream fileIn  = new FileInputStream("TableInfo.ser");
-                ObjectInputStream in = new ObjectInputStream(fileIn);
-                try {
-                    gui = (TableGUI) in.readObject();
-                } catch (ClassNotFoundException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-                in.close();
-                fileIn.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        else {
-            try {
-                file.createNewFile();
-                FileWriter writer = new FileWriter(file);
-                //JOptionPane.showMessageDialog(frame, "First Launch. Creating database...");
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            }
-        }
-*/
         // Button Actions
         btnAdd.addActionListener(e -> {
             String[] rowData = {
@@ -166,27 +132,4 @@ public class TableGUI implements Serializable {
             field.setText("");
         }
     }
-
-/*     private void dataManagement(){
-        TableGUI tableGUI = new TableGUI();
-        try {
-            FileOutputStream fileOut = new FileOutputStream("TableInfo.ser");
-            try (ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
-                out.writeObject(tableGUI);
-                out.close();
-            } catch (FileNotFoundException e) {
-                throw e;
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            try {
-                fileOut.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-*/
 }

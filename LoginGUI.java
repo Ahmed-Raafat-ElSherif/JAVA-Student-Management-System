@@ -70,7 +70,7 @@ public class LoginGUI extends JFrame {
                     setVisible(false);
                     TableGUI.start();
                 } 
-                else if (username.equals("student") && password.equals("123456"))
+                else if (username.equals("student") && password.equals("456789"))
                 {
                     System.out.println("LOGIN SUCCESSFUL!");
                     setVisible(false);
