@@ -53,8 +53,6 @@ A **Java Swing-based desktop application** for managing students and administrat
 - 
    ```bash
    javac Main.java
-   
-   ```bash
    java Main
 
 ## 🤝 Contribution Guidelines
