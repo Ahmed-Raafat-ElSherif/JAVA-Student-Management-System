@@ -67,7 +67,7 @@ We welcome contributions to improve and extend the functionality of this applica
 - Open a Pull Request.
 
 ## 📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ahmed-M-Ezzat/JAVA-Student-Management-System?tab=MIT-1-ov-file#readme) file for details.
 
 ## 👨‍💻 Authors
 - Ahmed Ezzat (@https://github.com/Ahmed-M-Ezzat) - Developer & Tester
