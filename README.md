@@ -50,8 +50,10 @@ A **Java Swing-based desktop application** for managing students and administrat
 3. **Run the Application**:
 - use an IDE (e.g., IntelliJ IDEA, Eclipse) to open the project and run the Main.java file.
 - Alternatively, compile and run via terminal:
+- 
    ```bash
    javac Main.java
+   
    ```bash
    java Main
 
@@ -60,24 +62,24 @@ We welcome contributions to improve and extend the functionality of this applica
 
 **Steps to Contribute**:
 
-Fork the repository.
-Create a feature branch: git checkout -b feature-name.
-Commit your changes: git commit -m "Add new feature".
-Push to the branch: git push origin feature-name.
-Open a Pull Request.
+- Fork the repository.
+- Create a feature branch: git checkout -b feature-name.
+- Commit your changes: git commit -m "Add new feature".
+- Push to the branch: git push origin feature-name.
+- Open a Pull Request.
 
 ## 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 👨‍💻 Authors
-Ahmed Ezzat (@github.com/Ahmed-M-Ezzat) - Developer & Designer
-Special thanks to contributors and testers!
+- Ahmed Ezzat (@https://github.com/Ahmed-M-Ezzat) - Developer & Tester
+- Special thanks to contributors and testers!
 
 ## 📞 Contact
-Have questions, feedback, or ideas? Reach out via:
+- Have questions, feedback, or ideas? Reach out via:
 
 ## Email: ahmed_m_ezzat@outlook.com
-GitHub Issues: Submit here
+- GitHub Issues: Submit here
 
 ## ⭐ Don't forget to give this project a star if you find it useful!
 
