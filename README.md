@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 - Have questions, feedback, or ideas? Reach out via:
 
 ## Email: ahmed_m_ezzat@outlook.com
-- GitHub Issues: Submit here
+- GitHub Issues: [Submit here](https://github.com/Ahmed-M-Ezzat/JAVA-Student-Management-System/issues)
 
 ## ⭐ Don't forget to give this project a star if you find it useful!
 
