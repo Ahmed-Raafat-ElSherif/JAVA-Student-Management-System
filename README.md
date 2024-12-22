@@ -70,7 +70,7 @@ Open a Pull Request.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 👨‍💻 Authors
-Your Name (@Ahmed-M-Ezzat) - Developer & Designer
+Ahmed Ezzat (@github.com/Ahmed-M-Ezzat) - Developer & Designer
 Special thanks to contributors and testers!
 
 ## 📞 Contact
