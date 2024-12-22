@@ -42,3 +42,15 @@ A **Java Swing-based desktop application** for managing students and administrat
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/student-management-system.git
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd student-management-system
+
+3. **Run the Application**:
+- use an IDE (e.g., IntelliJ IDEA, Eclipse) to open the project and run the Main.java file.
+- Alternatively, compile and run via terminal:
+   ```bash
+   javac Main.java
+   java Main
+
