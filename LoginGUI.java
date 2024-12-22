@@ -1,23 +1,25 @@
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.*; // Allows the use of Swing components like JFrame, JPanel, JLabel,
+import java.awt.*; // Provides classes for GUI layout, colors, fonts , sizes , etc.
 
 public class LoginGUI extends JFrame {
 
     public static final String APP_NAME = "Student Management System Login";
     public static final int TEXTFIELD_SIZE = 15;
 
+    // image resize method
     private ImageIcon resizeIcon(String filePath, int width, int height) {
         ImageIcon icon = new ImageIcon(filePath);
         Image image = icon.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);
         return new ImageIcon(image);
     }
 
+    // constructor
     public LoginGUI() {
         super(APP_NAME);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400, 400);
         setLocationRelativeTo(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("assets/log-in.png")); // Add your icon path here
+        setIconImage(Toolkit.getDefaultToolkit().getImage("assets/log-in.png"));
         addGUIComponents();
     }
 
