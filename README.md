@@ -70,14 +70,14 @@ We welcome contributions to improve and extend the functionality of this applica
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ahmed-M-Ezzat/JAVA-Student-Management-System?tab=MIT-1-ov-file#readme) file for details.
 
 ## 👨‍💻 Authors
-- Ahmed Ezzat (@https://github.com/Ahmed-M-Ezzat) - Developer & Tester
+- Ahmed Raafat El-Sherif (https://github.com/Ahmed-Raafat-ElSherif) - Developer & Tester
 - Special thanks to contributors and testers!
 
 ## 📞 Contact
 - Have questions, feedback, or ideas? Reach out via:
 
 ## Email: ahmed_m_ezzat@outlook.com
-- GitHub Issues: [Submit here](https://github.com/Ahmed-M-Ezzat/JAVA-Student-Management-System/issues)
+- GitHub Issues: [Submit here]((https://github.com/Ahmed-Raafat-ElSherif/JAVA-Student-Management-System))
 
 ## ⭐ Don't forget to give this project a star if you find it useful!
 
